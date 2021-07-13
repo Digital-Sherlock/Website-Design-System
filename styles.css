@@ -21,7 +21,7 @@ h1 {
 }
 
 .container .color-box {
-    float: left;
+    display:inline-block;
     height: 150px;
     width: 500px;
     color: white;
@@ -45,4 +45,25 @@ h1 {
 
 .beige {
     background-color: #efd9ca;
+}
+
+div[class*="font"] {
+    display: inline-block;
+    margin: 0px 400px 0px 0px;
+}
+
+div[class*="font"] p {
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+h2 {
+    margin: 25px 0px;
+}
+
+h3 {
+    margin: 20px 0px;
+    font-weight: normal;
+    font-size: 20px;
+    text-decoration: underline;
 }
